@@ -126,7 +126,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "BActeria CUltures per Sample",
+      title: "Bacteria Cultures per Sample",
       hovermode: "closest",
       xaxis: {title: "OTU ID"}
 
@@ -159,7 +159,7 @@ function buildCharts(sample) {
     var gaugeData = [{
       domain: { x: [0, 1], y: [0, 1] },
       value: freqWash,
-      title: { text: "Belly button washing frequency" },
+      title: { text: "Belly Button Washing Frequency" },
       type: "indicator",
       mode: "gauge+number",
       gauge: {
